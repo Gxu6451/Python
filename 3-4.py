@@ -1,0 +1,9 @@
+x=int(input())
+a=x//10
+y=x%10
+b=y//5
+z=y%5
+c=z//2
+xx=z%2
+d=xx//1
+print(a,b,c,d)
