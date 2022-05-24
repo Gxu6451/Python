@@ -1,0 +1,15 @@
+import turtle
+a=turtle.Turtle()
+l=int(input())
+a.fillcolor("yellow")
+for i in range(0,6):
+    a.begin_fill()
+    a.forward(l)
+    a.right(120)
+    a.forward(l)
+    a.right(120)
+    a.forward(l)
+    a.right(120)
+    a.end_fill()
+    a.forward(l)
+    a.left(60)
